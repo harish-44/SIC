@@ -1,0 +1,17 @@
+INTERFACE Rather Then Class
+    interface and bank
+        |          |__
+        |             > ICICI
+        \/
+        Paypal/RazorPay 
+
+                                                
+interface RazorPay{                             ICICI implements RazorPay,etc{
+    connectedBank();                                    public ConnectedToBank{
+    MakePayment();                                                 
+}                                                              }
+                                                     }
+## Coding Contract---> 
+** Methods are abstract
+upcasting-->> base class reference
+downcaste-->> for derived class
